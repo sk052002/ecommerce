@@ -10,5 +10,5 @@ This website consist of 6 pages which include in login,signup,Home page,Product 
 ![order](https://github.com/sk052002/ecommerce/assets/110295144/7d2ae016-7146-403a-a0af-2002bdc2a2cd)
 ## Technologies Used
 - Frontend: HTML, CSS, JavaScript
-- tool: Vs code
+- Tool: Vs code
 
