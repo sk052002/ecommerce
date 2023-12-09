@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="img/brands/brand2.png" />
+    <script>
+        document.getElementById('openButton').addEventListener('click', function () {
+      openNextPage();
+  });
+  function openNextPage() {
+      window.location.href = 'order.html';
+  }
+      </script>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="css/cart.css">  
+     <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    
+    <div class="cart-container">
+        <h1>Your Shopping Cart</h1>
+        <div class="cart-items" id="cartItems">
+            
+        </div>
+
+        <div class="cart-total">
+            <h3>Total: $<span id="totalAmount">0.00</span></h3>
+            <button class="checkout-btn" onclick="openNextPage()">Place Order</button>
+        </div>
+    </div>
+
+
+    <script src="js/cart.js"></script>
+</body>
+</html>
